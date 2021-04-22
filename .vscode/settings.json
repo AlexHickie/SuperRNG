@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"html.format.indentInnerHtml": true,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.tabSize": 4,
+	"eslint.format.enable": true
+}

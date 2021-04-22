@@ -1,0 +1,19 @@
+.optionsList {
+	height: 100%;
+	display: flex;
+	margin: 10px;
+	flex-direction: column;
+	user-select: none;
+}
+
+.optionLabel {
+	font-size: var(--font-size-small);
+	color: var(--text-grey);
+}
+
+.sourceLink {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	margin-top: auto;
+}

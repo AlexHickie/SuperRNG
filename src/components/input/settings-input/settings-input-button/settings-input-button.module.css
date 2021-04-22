@@ -1,0 +1,11 @@
+.settingsInputButton {
+	font: inherit;
+	cursor: pointer;
+	font-size: var(--font-size-regular);
+	text-align: center;
+	color: var(--text-highlight);
+}
+
+.settingsInputButton:active {
+	border-color: var(--highlight-color0);
+}

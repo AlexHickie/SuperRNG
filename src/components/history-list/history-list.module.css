@@ -1,0 +1,52 @@
+.historyLabel {
+	background-color: var(--highlight-color0);
+	display: inline-block;
+	padding: 4px 20px;
+	text-align: center;
+	color: var(--text-dark);
+	font-size: var(--font-size-regular);
+	user-select: none;
+}
+
+.listAndOrderLabelsContainer {
+	position: relative;
+	background-color: #000;
+}
+
+.orderLabel {
+	font-size: var(--font-size-small);
+	line-height: var(--font-size-small);
+	color: var(--text-light);
+	margin: 10px;
+	user-select: none;
+}
+
+.orderLabelLeft {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.orderLabelRight {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.listContainer {
+	overflow-x: scroll;
+	padding: 40px 0;
+}
+
+.list {
+	display: block;
+	font-size: 26px;
+	padding: 0 1em;
+	height: 1em;
+	line-height: 1em;
+	width: min-content;
+	margin-left: auto;
+	color: var(--text-light);
+	word-spacing: 1em;
+	white-space: nowrap;
+}

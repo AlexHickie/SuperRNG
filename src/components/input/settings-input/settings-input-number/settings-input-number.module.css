@@ -1,0 +1,14 @@
+.settingsInputNumber {
+	font: inherit;
+	cursor: text;
+	font-size: var(--font-size-large);
+	appearance: textfield;
+}
+
+.settingsInputNumber:focus {
+	border-color: var(--highlight-color0);
+}
+
+.settingsInputNumber[data-valid="false"] {
+	border-color: var(--error);
+}

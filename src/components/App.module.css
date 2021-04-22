@@ -1,0 +1,36 @@
+@import "normalize.css";
+
+:root {
+	--text-light: #fff;
+	--text-grey: #666;
+	--text-dark: #000;
+	--text-highlight: #00C100;
+	--background-light: #f9f9fc;
+	--background-light-highlight: #fff;
+	--highlight-color0: #85f075;
+	--highlight-color1: #007f66;
+	--highlight-color2: #66b266;
+	--highlight-color3: #cce566;
+	--highlight-color4: #ffff66;
+	--error: #f00;
+	--element-border-light: #e6e6e6;
+	--font-size-small: 12px;
+	--font-size-regular: 14px;
+	--font-size-large: 18px;
+	--reveal-animation-length: 0.8s;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+.appContainer {
+	background-color: var(--background-light);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,53 @@
+.container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	background-color: rgba(0, 0, 0, 0.15);
+	visibility: hidden;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.15s;
+}
+
+.container[data-visible="true"] {
+	opacity: 1;
+	visibility: visible;
+}
+
+.drawerMenu {
+	position: absolute;
+	box-shadow: -4px 0 8px 0 rgba(0, 0, 0, 0.2);
+	right: 0;
+	width: 75%;
+	max-width: 500px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--background-light);
+	transform: translateX(max(500px, 75%));
+	transition: transform 0.25s;
+}
+
+.drawerMenu[data-visible="true"] {
+	transform: translateX(0);
+}
+
+.toolbar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	height: 50px;
+	background-color: var(--background-light-highlight);
+}
+
+.title {
+	font-size: var(--font-size-regular);
+}
+
+.closeButtonContainer {
+	position: absolute;
+	left: 0;
+}
