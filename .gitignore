@@ -1,3 +1,6 @@
 dist
 node_modules/
+stats.json
+docs/CNAME
+docs/_config.yml
 .DS_Store

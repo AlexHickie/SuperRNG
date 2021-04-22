@@ -10,9 +10,14 @@ module.exports = (env, argv) => {
 	const isDevelopment = argv.mode === 'development';
 
 	return {
-		target: process.env.NODE_ENV !== 'production' ? 'web' : 'browserslist',
+		target: isDevelopment ? 'web' : 'browserslist',
 		entry: {
-			index: './src/index.js'
+			main: './src/index.js',
+		},
+		optimization: {
+			splitChunks: {
+				chunks: 'all',
+			}
 		},
 		output: {
 			path: path.join(__dirname, 'docs'),
